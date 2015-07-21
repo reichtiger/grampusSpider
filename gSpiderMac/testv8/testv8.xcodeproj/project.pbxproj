@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0E220DA1A1AE1B10050FD49 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0E220D91A1AE1B10050FD49 /* main.cpp */; };
+		C0E220E81A1AE2E20050FD49 /* libv8_base.x64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220E71A1AE2E20050FD49 /* libv8_base.x64.a */; };
+		C0E220EA1A1AE2EB0050FD49 /* libv8_nosnapshot.x64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220E91A1AE2EB0050FD49 /* libv8_nosnapshot.x64.a */; };
+		C0E220EC1A1AE2F90050FD49 /* libv8_snapshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220EB1A1AE2F90050FD49 /* libv8_snapshot.a */; };
+		C0E220EE1A1AE2FD0050FD49 /* libicuuc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220ED1A1AE2FD0050FD49 /* libicuuc.a */; };
+		C0E220F01A1AE2FF0050FD49 /* libicui18n.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220EF1A1AE2FF0050FD49 /* libicui18n.a */; };
+		C0E220F21A1AE3070050FD49 /* libicudata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220F11A1AE3070050FD49 /* libicudata.a */; };
+		C0E220F41A1AE30A0050FD49 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220F31A1AE30A0050FD49 /* libssl.dylib */; };
+		C0E220F61A1AE30C0050FD49 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220F51A1AE30C0050FD49 /* libcrypto.dylib */; };
+		C0E220F81A1AE30E0050FD49 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E220F71A1AE30E0050FD49 /* libiconv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C0E220D41A1AE1B10050FD49 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C0E220D61A1AE1B10050FD49 /* testv8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = testv8; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E220D91A1AE1B10050FD49 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0E220E71A1AE2E20050FD49 /* libv8_base.x64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_base.x64.a; path = ../../v8libs_3.26.33/mac/Debug/libv8_base.x64.a; sourceTree = "<group>"; };
+		C0E220E91A1AE2EB0050FD49 /* libv8_nosnapshot.x64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_nosnapshot.x64.a; path = ../../v8libs_3.26.33/mac/Debug/libv8_nosnapshot.x64.a; sourceTree = "<group>"; };
+		C0E220EB1A1AE2F90050FD49 /* libv8_snapshot.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libv8_snapshot.a; path = ../../v8libs_3.26.33/mac/Debug/libv8_snapshot.a; sourceTree = "<group>"; };
+		C0E220ED1A1AE2FD0050FD49 /* libicuuc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicuuc.a; path = ../../v8libs_3.26.33/mac/Debug/libicuuc.a; sourceTree = "<group>"; };
+		C0E220EF1A1AE2FF0050FD49 /* libicui18n.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicui18n.a; path = ../../v8libs_3.26.33/mac/Debug/libicui18n.a; sourceTree = "<group>"; };
+		C0E220F11A1AE3070050FD49 /* libicudata.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libicudata.a; path = ../../v8libs_3.26.33/mac/Debug/libicudata.a; sourceTree = "<group>"; };
+		C0E220F31A1AE30A0050FD49 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = usr/lib/libssl.dylib; sourceTree = SDKROOT; };
+		C0E220F51A1AE30C0050FD49 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		C0E220F71A1AE30E0050FD49 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0E220D31A1AE1B10050FD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E220E81A1AE2E20050FD49 /* libv8_base.x64.a in Frameworks */,
+				C0E220EA1A1AE2EB0050FD49 /* libv8_nosnapshot.x64.a in Frameworks */,
+				C0E220F21A1AE3070050FD49 /* libicudata.a in Frameworks */,
+				C0E220F01A1AE2FF0050FD49 /* libicui18n.a in Frameworks */,
+				C0E220F61A1AE30C0050FD49 /* libcrypto.dylib in Frameworks */,
+				C0E220F81A1AE30E0050FD49 /* libiconv.dylib in Frameworks */,
+				C0E220F41A1AE30A0050FD49 /* libssl.dylib in Frameworks */,
+				C0E220EE1A1AE2FD0050FD49 /* libicuuc.a in Frameworks */,
+				C0E220EC1A1AE2F90050FD49 /* libv8_snapshot.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0E220CD1A1AE1B10050FD49 = {
+			isa = PBXGroup;
+			children = (
+				C0E220F71A1AE30E0050FD49 /* libiconv.dylib */,
+				C0E220F51A1AE30C0050FD49 /* libcrypto.dylib */,
+				C0E220F31A1AE30A0050FD49 /* libssl.dylib */,
+				C0E220F11A1AE3070050FD49 /* libicudata.a */,
+				C0E220EF1A1AE2FF0050FD49 /* libicui18n.a */,
+				C0E220ED1A1AE2FD0050FD49 /* libicuuc.a */,
+				C0E220EB1A1AE2F90050FD49 /* libv8_snapshot.a */,
+				C0E220E91A1AE2EB0050FD49 /* libv8_nosnapshot.x64.a */,
+				C0E220E71A1AE2E20050FD49 /* libv8_base.x64.a */,
+				C0E220D81A1AE1B10050FD49 /* testv8 */,
+				C0E220D71A1AE1B10050FD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0E220D71A1AE1B10050FD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0E220D61A1AE1B10050FD49 /* testv8 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0E220D81A1AE1B10050FD49 /* testv8 */ = {
+			isa = PBXGroup;
+			children = (
+				C0E220D91A1AE1B10050FD49 /* main.cpp */,
+			);
+			path = testv8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0E220D51A1AE1B10050FD49 /* testv8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0E220DD1A1AE1B10050FD49 /* Build configuration list for PBXNativeTarget "testv8" */;
+			buildPhases = (
+				C0E220D21A1AE1B10050FD49 /* Sources */,
+				C0E220D31A1AE1B10050FD49 /* Frameworks */,
+				C0E220D41A1AE1B10050FD49 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testv8;
+			productName = testv8;
+			productReference = C0E220D61A1AE1B10050FD49 /* testv8 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0E220CE1A1AE1B10050FD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = chupeng;
+				TargetAttributes = {
+					C0E220D51A1AE1B10050FD49 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C0E220D11A1AE1B10050FD49 /* Build configuration list for PBXProject "testv8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0E220CD1A1AE1B10050FD49;
+			productRefGroup = C0E220D71A1AE1B10050FD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0E220D51A1AE1B10050FD49 /* testv8 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0E220D21A1AE1B10050FD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E220DA1A1AE1B10050FD49 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0E220DB1A1AE1B10050FD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C0E220DC1A1AE1B10050FD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C0E220DE1A1AE1B10050FD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				HEADER_SEARCH_PATHS = (
+					ZHUtil,
+					../../v8libs_3.26.33/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../v8libs_3.26.33/mac/Debug,
+					/Volumes/data/apps/v8libs_3.26.33/mac/Debug,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0E220DF1A1AE1B10050FD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				HEADER_SEARCH_PATHS = (
+					ZHUtil,
+					../../v8libs_3.26.33/include,
+					/usr/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../v8libs_3.26.33/mac/Debug,
+					/Volumes/data/apps/v8libs_3.26.33/mac/Debug,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0E220D11A1AE1B10050FD49 /* Build configuration list for PBXProject "testv8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E220DB1A1AE1B10050FD49 /* Debug */,
+				C0E220DC1A1AE1B10050FD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0E220DD1A1AE1B10050FD49 /* Build configuration list for PBXNativeTarget "testv8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0E220DE1A1AE1B10050FD49 /* Debug */,
+				C0E220DF1A1AE1B10050FD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0E220CE1A1AE1B10050FD49 /* Project object */;
+}
